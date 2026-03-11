@@ -1,0 +1,7 @@
+{
+    "java.project.sourcePaths": [
+        "sperta-client-maven"
+    ],
+    "java.project.referencedLibraries": [],
+    "java.configuration.updateBuildConfiguration": "automatic"
+}
