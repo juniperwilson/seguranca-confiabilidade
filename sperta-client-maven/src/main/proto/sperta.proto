@@ -1,0 +1,38 @@
+syntax = "proto3";
+
+package com.sperta;
+
+message AuthenticateUser {
+    string username = 1;
+    string password = 2;
+}
+
+message Create {
+    int32 home = 1;
+}
+
+message Add {
+    string user = 1;
+    int32 home = 2;
+    string section = 3;
+}
+
+message RD {
+    int32 home = 1;
+    string section = 2;
+}
+
+message EC {
+    int32 home = 1;
+    string device = 2;
+    int32 command = 3;
+}
+
+message RT {
+    int32 home = 1;
+}
+
+message RH {
+    int32 home = 1;
+    string device = 2;
+}
